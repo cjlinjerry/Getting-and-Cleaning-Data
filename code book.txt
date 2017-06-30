@@ -7,8 +7,10 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
-For this tidy dataset, the subject id and activities were included.
-Grouped by subject and activity, each row in the dataset represent the average value of the feature.
+Training dataset and test dataset were merged.
+For this tidy dataset, the two new variables: subject and activities were included.
+Grouped by subject and activity, each row in the dataset represents the average value of the feature.
+There are 180 observations and 68 variables.
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
